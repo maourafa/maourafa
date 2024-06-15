@@ -64,6 +64,16 @@ main {
     border-radius: 4px;
 }
 
+.warning {
+    background-color: #fff3cd; /* Latar belakang kuning pucat */
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    color: #856404; /* Teks lebih gelap */
+}
+
 .buy-button {
     display: inline-block;
     background-color: #4CAF50;
