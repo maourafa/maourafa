@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesan Sekarang</title>
+    <link rel="stylesheet" href="order.css">
+</head>
+<body>
+    <header>
+        <img src="circle-logo.png" alt="Logo" class="logo">
+        <h1>PESAN SEKARANG</h1>
+    </header>
+    <main>
+        <form id="orderForm" action="https://api.whatsapp.com/send" method="get">
+            <div class="form-group">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="text" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="protocol">Protokol:</label>
+                <input type="text" id="protocol" name="protocol" required>
+            </div>
+            <div class="form-group">
+                <label for="days">Hari:</label>
+                <input type="text" id="days" name="days" required>
+            </div>
+            <div class="form-group">
+                <label for="payment">Pembayaran:</label>
+                <input type="file" id="payment" name="payment" accept="image/*" required>
+            </div>
+            <input type="hidden" name="phone" value="6285789987714">
+            <input type="hidden" name="text" id="whatsappMessage">
+            <button type="submit" class="send-button">Kirim ke WhatsApp</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 MAOURAFA VPN THUNDER. Semua hak dilindungi.</p>
+    </footer>
+    <script>
+        document.getElementById('orderForm').addEventListener('submit', function(e) {
+            var name = document.getElementById('name').value;
+            var password = document.getElementById('password').value;
+            var protocol = document.getElementById('protocol').value;
+            var days = document.getElementById('days').value;
+
+            var message = `Nama: ${name}\nPassword: ${password}\nProtokol: ${protocol}\nHari: ${days}`;
+            document.getElementById('whatsappMessage').value = message;
+
+            this.action = `https://api.whatsapp.com/send?phone=6285789987714&text=${encodeURIComponent(message)}`;
+        });
+    </script>
+</body>
+</html>
