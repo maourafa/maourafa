@@ -74,12 +74,14 @@ form {
     text-align: left; /* Mengubah menjadi kiri jika ingin teks rata kiri */
 }
 
-.warning h2 {
+.warning .h2 {
     margin-bottom: 15px;
+    text-align: center;
 }
 
-.warning p {
+.warning .p {
     margin-bottom: 10px;
+    text-align: center;
 }
 
 footer {
