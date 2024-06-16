@@ -65,6 +65,23 @@ form {
     background-color: #45a049;
 }
 
+.warning {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    text-align: left; /* Mengubah menjadi kiri jika ingin teks rata kiri */
+}
+
+.warning h2 {
+    margin-bottom: 15px;
+}
+
+.warning p {
+    margin-bottom: 10px;
+}
+
 footer {
     background-color: #333;
     color: white;
