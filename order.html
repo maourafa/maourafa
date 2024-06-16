@@ -22,24 +22,60 @@
                 <input type="text" id="password" name="password" required>
             </div>
             <div class="form-group">
-                <label for="protocol">Protokol:</label>
+                <label for="protocol">Protokol VPN:</label>
                 <input type="text" id="protocol" name="protocol" required>
             </div>
             <div class="form-group">
                 <label for="days">Hari:</label>
                 <input type="text" id="days" name="days" required>
             </div>
-            <div class="form-group">
-                <label for="payment">Pembayaran:</label>
-                <input type="file" id="payment" name="payment" accept="image/*" required>
-            </div>
             <input type="hidden" name="phone" value="6285789987714">
             <input type="hidden" name="text" id="whatsappMessage">
             <button type="submit" class="send-button">Kirim ke WhatsApp</button>
         </form>
     </main>
+    <div class="warning">
+        <h2>Cara Pengisian</h2>
+        <p>Nama:nama untuk user vpn mu</p>
+        <p>Password: Password untuk akun vpn (SSH)</p>
+        <p>Protokol: Adalah Jenis Akun vpn yang mau anda gunakan </p>
+        <p>SSH✓</p>
+        <p>VMESS✓</p>
+        <p>VLESS✓</p>
+        <p>TROJAN✓</p>
+        <p>SHADOWSOCKS✓</p>
+        <p>TROJAN GO✓</p>
+        <p>Bonus Config Bisa Req ya</p>
+        <p>Tersedia Untuk Config</p>
+        <p>🔰telkomsel ilmupedia</p>
+<p>🔰telkomsel maxstream</p>
+<p>🔰telkomsel ruangguru</p>
+<p>🔰telkomsel gamemax</p>
+<p>🔰telkomsel opok</p>
+<p>🔰byu ruangguru</p>
+<p>🔰byu opok</p>
+<p>🔰axis sushiroll</p>
+<p>🔰axis edukasi</p>
+<p>🔰axis genflix</p>
+<p>🔰axis youtube</p>
+<p>🔰axis vidio</p>
+<p>🔰axis game</p>
+<p>🔰xl conference</p>
+<p>🔰xl edukasi</p>
+<p>🔰xl meeting</p>
+<p>🔰xl youtube</p>
+<p>🔰xl iflix</p>
+<p>🔰xl vidio</p>
+<p>🔰Bug xcl</p>
+<p>🔰XL opok</p>
+<p>🔰XL Axis chat wa line</p>
+<p>🔰bug xl flex</p>
+<p>🔰iflix-vidio-proteksi-opok</p>
+<p>🔰indosat apps fun</p>
+        
+    </div>
     <footer>
-        <p>&copy; 2024 MAOURAFA VPN THUNDER. Semua hak dilindungi.</p>
+        <p>&copy; SETELAH DIKIRIM SS PAY DAN AKAN KAMI PROSES</p>
     </footer>
     <script>
         document.getElementById('orderForm').addEventListener('submit', function(e) {
@@ -48,7 +84,7 @@
             var protocol = document.getElementById('protocol').value;
             var days = document.getElementById('days').value;
 
-            var message = `Nama: ${name}\nPassword: ${password}\nProtokol: ${protocol}\nHari: ${days}`;
+            var message = `Nama: ${name}\nPassword Akun: ${password}\nProtokol VPN: ${protocol}\nHari: ${days}`;
             document.getElementById('whatsappMessage').value = message;
 
             this.action = `https://api.whatsapp.com/send?phone=6285789987714&text=${encodeURIComponent(message)}`;
