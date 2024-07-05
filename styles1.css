@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-color: #f0f8ff;
     color: #333;
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #1e90ff;
     color: white;
     text-align: center;
     padding: 20px;
@@ -31,7 +31,7 @@ main {
     background: white;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .header-logo {
@@ -58,25 +58,25 @@ main {
 }
 
 .price-category ul li {
-    background-color: #f1f1f1;
+    background-color: #e0f7fa;
     margin: 5px 0;
     padding: 10px;
     border-radius: 4px;
 }
 
 .warning {
-    background-color: #fff3cd; /* Latar belakang kuning pucat */
+    background-color: #e0f7fa; /* Light blue background */
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px;
     padding: 10px;
     text-align: center;
-    color: #856404; /* Teks lebih gelap */
+    color: #005662; /* Darker text */
 }
 
 .buy-button {
     display: inline-block;
-    background-color: #4CAF50;
+    background-color: #1e90ff;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -87,7 +87,7 @@ main {
 }
 
 .buy-button:hover {
-    background-color: #45a049;
+    background-color: #1c86ee;
 }
 
 footer {
