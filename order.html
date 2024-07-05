@@ -22,9 +22,20 @@
                 <input type="text" id="password" name="password" required>
             </div>
             <div class="form-group">
-                <label for="protocol">Protokol VPN:</label>
-                <input type="text" id="protocol" name="protocol" required>
-            </div>
+    <label for="protocol">Protokol VPN:</label>
+    <select id="protocol" name="protocol" required>
+        <option value="">Pilih Protokol VPN</option>
+        <option value="SSH WEBSOCKET">SSH WEBSOCKET</option>
+        <option value="SSH SelowDNS">SSH SelowDNS</option>
+        <option value="OPEN SSH">OPEN SSH</option>
+        <option value="SSH UDP">SSH UDP</option>
+        <option value="Xray/Vmess">Xray/Vmess</option>
+        <option value="Xray/Vless">Xray/Vless</option>
+        <option value="Trojan">Trojan</option>
+        <option value="ShadowsocksR">ShadowsocksR</option>
+        <option value="Shadowsocks-Libev">Shadowsocks-Libev</option>
+    </select>
+</div>
             <div class="form-group">
                 <label for="service">Pilih Layanan:</label>
                 <select id="service" name="service">
