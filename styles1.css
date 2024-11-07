@@ -74,6 +74,16 @@ main {
     color: #005662; /* Darker text */
 }
 
+.wr2 {
+    background-color: #e0f7fa; /* Light blue background */
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    color: #005662; /* Darker text */
+}
+
 .buy-button {
     display: inline-block;
     background-color: #1e90ff;
