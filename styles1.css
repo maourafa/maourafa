@@ -10,7 +10,7 @@ header {
     background-color: #1e90ff;
     color: #273349;
     text-align: center;
-    padding: 20px;
+    padding: 8px;
 }
 
 .logo {
@@ -46,25 +46,81 @@ main {
     margin-bottom: 20px;
 }
 
+/* Container for the pricing section */
 .price-category {
+    background-color: #1e2a3b; /* Darker background for VIP */
+    border-radius: 12px; /* Rounded corners for a more polished look */
+    padding: 20px;
+    max-width: 400px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    margin: auto;
+    text-align: center;
+}
+
+/* Title styling */
+.category-title {
+    font-size: 24px;
+    color: #ffcc00; /* Gold color for VIP */
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Pricing list */
+.pricing-list {
+    list-style-type: none;
+    padding: 0;
     margin-bottom: 20px;
 }
 
-.price-category h3 {
-    margin-bottom: 10px;
+.pricing-item {
+    background-color: #273349; /* Slightly lighter for items */
+    color: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    transition: all 0.3s ease;
 }
 
-.price-category ul {
-    list-style-type: none;
-    padding: 0;
+/* Hover effect for pricing items */
+.pricing-item:hover {
+    background-color: #ffcc00; /* Gold when hovered */
+    color: #273349;
+    transform: scale(1.05); /* Slight zoom effect */
 }
 
-.price-category ul li {
-    background-color: #273349;
+.duration {
+    font-weight: bold;
+}
+
+.price {
+    font-size: 18px;
     color: white;
-    margin: 5px 0;
-    padding: 10px;
-    border-radius: 4px;
+    font-weight: bold;
+}
+
+/* Button styling */
+.buy-button {
+    display: inline-block;
+    background-color: #ffcc00; /* Gold button */
+    color: #273349;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect for button */
+.buy-button:hover {
+    background-color: #273349;
+    color: #ffcc00;
+    transform: scale(1.1); /* Slight zoom effect */
 }
 
 .warning {
@@ -115,4 +171,72 @@ footer {
 .bold {
   text-align: center;
   text-shadow: 10px;
+}
+
+.scwa {
+            display: flex;
+            gap: 5px; /* Space between buttons */
+        }
+        .whatsapp-button {
+            background-color: #15d100;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 16px;
+            text-decoration: none; /* Remove underline */
+            display: inline-block; /* Make anchor behave like a button */
+            text-align: center;
+}
+
+.yt {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make anchor behave like a button */
+  text-align: center;
+}
+/* Efek Teks Api pada Judul */
+@keyframes fire-effect {
+    0% {
+        background-position: 0% 50%;
+        color: #ffcc00;
+    }
+    50% {
+        background-position: 100% 50%;
+        color: #f44336; /* Merah api */
+    }
+    100% {
+        background-position: 0% 50%;
+        color: #ffcc00;
+    }
+}
+
+/* Membuat efek api bergerak di judul */
+.category-title {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #ffcc00, #f44336, #ffeb3b, #f44336); /* Warna api */
+    background-size: 400% 400%;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: fire-effect 3s linear infinite; /* Mengaktifkan animasi api */
+    text-shadow: 0 0 10px rgba(255, 193, 7, 0.8), 0 0 20px rgba(255, 193, 7, 0.7), 0 0 30px rgba(255, 87, 34, 0.5);
+    letter-spacing: 2px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+/* Efek api pada hover judul (opsional) */
+.category-title:hover {
+    color: #f44336; /* Merah api saat hover */
+    text-shadow: 0 0 15px rgba(255, 87, 34, 1), 0 0 25px rgba(255, 193, 7, 1);
 }
