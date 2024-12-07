@@ -1,24 +1,34 @@
-## Hi there ORE WA MAWO DESU👋
-im a maourafa, a beginner in programing AND NUBI
-- 🔭 I’m currently working on ...hp REALME C33 BUTUT KONTOL
-- 🌱 I’m currently learning ...web , JAWA SCRIPT AND OTHER
-- 👯 I’m looking to collaborate on ... internet , VPN , WEB , BOT
-- 🤔 I’m looking for help with ... SEPUH NGODING
-- 💬 Ask me about ... SUSU ANIME KECIL 
-- 📫 How to reach me: ... maourafa@gmail.com
-- 😄 Pronouns: ...hi SALAM KENAL AKU GUWE 
-- ⚡ Fun fact: ...im is JAWA BUT LAMPUNG BUT CHINSE WITH JAPANSE PHARSE
-<!--
-**maourafa/maourafa** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# IM MAOURAFA NICE TO MEET YOU :) <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width=35 />
+<br>
+<div align="center">
+<p align="center"> 
+  <img src="https://img.shields.io/github/followers/maourafa?label=Follow Me!&style=social" alt=MAOURAFA" /> 
+</p>
 
-Here are some ideas to get you started:
+![Profile Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/maourafa/&title=Profile%20Views)
 
-- 🔭 I’m currently working on ...hp
-- 🌱 I’m currently learning ...web
-- 👯 I’m looking to collaborate on ... internet 
-- 🤔 I’m looking for help with ...webber
-- 💬 Ask me about ...money
-- 📫 How to reach me: ... maourafa@gmail.com
-- 😄 Pronouns: ...hi
-- ⚡ Fun fact: ...im is jawa
--->
+
+<a href="https://www.instagram.com/maourafa">
+  <img align="left" alt="Instagram" width="21px" src="https://raw.githubusercontent.com/github/explore/06c46459e7947c8a25f72798af696d66e202ac39/topics/instagram/instagram.png" />
+</a>
+<a href="https://youtube.com/@maourafa">
+  <img align="left" alt="Youtube" width="21px" src="https://raw.githubusercontent.com/edent/SuperTinyIcons/e94212a487d744cb75e75241cb93716836b2d1e2/images/svg/youtube.svg" />
+</a>
+<a href="https://x.com/aadmoa">
+  <img align="left" alt="X" width="21px" src="https://avatars.githubusercontent.com/u/50278?s=200&v=4" />
+</a>
+
+  
+<p align="center">
+  <img src="https://forthebadge.com/images/badges/powered-by-oxygen.svg">
+  <img src="https://forthebadge.com/images/badges/built-with-love.svg">
+  <img src="https://forthebadge.com/images/badges/approved-by-my-mom.svg">
+  <br>
+</p>
+
+##
+## ⭐ GitHub Stats
+
+![](https://github-readme-stats.vercel.app/api?username=maourafa&theme=github_dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=maourafa&theme=github_dark&hide_progress=true)
+</div>
